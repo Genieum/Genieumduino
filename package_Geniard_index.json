@@ -45,7 +45,7 @@
               "host": "x86_64-windows",
               "url": "https://github.com/Genieum/Genieumduino/raw/refs/heads/main/tools/serial/stm32flash.exe",
               "archiveFileName": "stm32flash.exe",
-              "checksum": "SHA-256:b05d0f2261f6996a114886a6c2de8f2ae4a2881dbc3108dd58024e9a297e4f54",
+              "checksum": "SHA-256:0cc4686635aa7e83f9eb556fd71c693427578147e8e04d9e7a9212e5dc7dc210",
               "size": "536571"
             }
           ]
