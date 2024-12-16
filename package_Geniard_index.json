@@ -7,7 +7,7 @@
       "email": "support@genieum.cc",
       "platforms": [
         {
-          "name": "Geniard",
+          "name": "STM32F411 Geniard",
           "architecture": "arm",
           "version": "1.0.0",
           "category": "Geniard",
@@ -15,15 +15,9 @@
           "archiveFileName": "Geniard-1.0.0.tar.gz",
           "checksum": "SHA-256:3a72b9533f2b77d71a82b27f0bf0609f8239d7fb2912921f48c61bec55807569",
           "size": "220712",
-          "toolsDependencies": [
-            {
-              "name": "serial",
-              "version": "1.0.0"
-            }
-          ],
           "boards": [
             {
-              "name": "Geniard",
+              "name": "STM32F411 Geniard",
               "architecture": "arm",
               "variant": "STM32F411",
               "upload": {
@@ -50,7 +44,7 @@
             {
               "host": "x86_64-windows",
               "url": "https://github.com/Genieum/Genieumduino/raw/refs/heads/main/tools/serial/stm32flash.exe",
-              "archiveFileName": "stm32flash.exe",
+              "archiveFileName": "https://github.com/Genieum/Genieumduino/raw/refs/heads/main/stm32flash.tar.gz",
               "checksum": "SHA-256:b05d0f2261f6996a114886a6c2de8f2ae4a2881dbc3108dd58024e9a297e4f54",
               "size": "536571"
             }
