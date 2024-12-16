@@ -1,0 +1,62 @@
+{
+  "packages": [
+    {
+      "name": "Genieum",
+      "maintainer": "Genieum",
+      "websiteURL": "https://github.com/Genieum/Genieumduino.git",
+      "email": "support@genieum.cc",
+      "platforms": [
+        {
+          "name": "Geniard",
+          "architecture": "arm",
+          "version": "1.0.0",
+          "category": "Geniard",
+          "url": "https://github.com/Genieum/Genieumduino/raw/refs/heads/main/Geniard-1.0.0.tar.gz",
+          "archiveFileName": "Geniard-1.0.0.tar.gz",
+          "checksum": "SHA-256:3a72b9533f2b77d71a82b27f0bf0609f8239d7fb2912921f48c61bec55807569",
+          "size": "220712",
+          "toolsDependencies": [
+            {
+              "name": "serial",
+              "version": "1.0.0"
+            }
+          ],
+          "boards": [
+            {
+              "name": "Geniard",
+              "architecture": "arm",
+              "variant": "STM32F411",
+              "upload": {
+                "protocol": "serial",
+                "tool": "stm32flash",
+                "speed": "115200",
+                "port": "COM3"
+              },
+              "build": {
+                "core": "STM32",
+                "variant": "STM32F411CEU6",
+                "mcu": "STM32F411CEU6",
+                "f_cpu": "100000000L"
+              }
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "serial",
+          "version": "1.0.0",
+          "systems": [
+            {
+              "host": "x86_64-windows",
+              "url": "https://github.com/Genieum/Genieumduino/raw/refs/heads/main/tools/serial/stm32flash.exe",
+              "archiveFileName": "stm32flash.exe",
+              "checksum": "SHA-256:b05d0f2261f6996a114886a6c2de8f2ae4a2881dbc3108dd58024e9a297e4f54",
+              "size": "536571"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
