@@ -13,7 +13,7 @@
           "category": "Geniard",
           "url": "https://github.com/Genieum/Genieumduino/raw/refs/heads/main/Geniard-1.0.0.tar.gz",
           "archiveFileName": "Geniard-1.0.0.tar.gz",
-          "checksum": "SHA-256:3a72b9533f2b77d71a82b27f0bf0609f8239d7fb2912921f48c61bec55807569",
+          "checksum": "SHA-256:f9ec5e0edeb5519629fd5be03b87536638f4deff35234e27e3263eb74822b1a9",
           "size": "220712",
           "boards": [
             {
