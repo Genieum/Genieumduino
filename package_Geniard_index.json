@@ -14,7 +14,7 @@
           "url": "https://github.com/Genieum/Genieumduino/raw/refs/heads/main/Geniard-1.0.0.tar.gz",
           "archiveFileName": "Geniard-1.0.1.tar.gz",
           "checksum": "SHA256:e53ba9cdda9162e97b7fa73e71f532e89a58e66924495c6cbda621e2c16a28cc",
-          "size": "220712",
+          "size": "542751",
           "boards": [
             {
               "name": "STM32F411 Geniard",
