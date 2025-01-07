@@ -39,7 +39,7 @@
       "tools": [
         {
           "name": "serial",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "systems": [
             {
               "host": "x86_64-windows",
