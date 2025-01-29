@@ -42,7 +42,7 @@
             {
               "host": "x86_64-windows",
               "url": "https://github.com/Genieum/Genieumduino/raw/refs/heads/main/gcc-arm-none-eabi.tar.gz",
-              "archiveFileName": "gcc-arm-none-eabi",
+              "archiveFileName": "gcc-arm-none-eabi.tar.gz",
               "checksum": "SHA-256:2271266670689d6f62f41c5effee8f91e46d2b2658d456e47ece86d836ed6e2e",
               "size": "21705724"
             }
