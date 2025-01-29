@@ -41,10 +41,10 @@
           "systems": [
             {
               "host": "x86_64-windows",
-              "url": "https://github.com/Genieum/Genieumduino/releases/download/untagged-668018419f7249e78ff5/gcc-arm-none-eabi-10.3-2021.10-win32.tar.gz",
-              "archiveFileName": "gcc-arm-none-eabi-10.3-2021.10-win32.tar.gz",
-              "checksum": "SHA-256:f36d50da03957d00a25114825cd418c635122e1ede472d889478c74398bf51b1",
-              "size": "132102507"
+              "url": "https://github.com/Genieum/Genieumduino/tree/main/gcc-arm-none-eabi/",
+              "archiveFileName": "gcc-arm-none-eabi",
+              "checksum": "SHA-256:91fafecf399e108bbb78701de950e46ebb058c41f820f614ec2500a9c95e392f-00000011",
+              "size": " 66757784"
             }
           ]
         },
