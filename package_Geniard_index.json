@@ -18,19 +18,17 @@
           "boards": [
             {
               "name": "STM32F411 Geniard",
-              "architecture": "arm",
-              "variant": "STM32F411",
-              "upload": {
-                "protocol": "serial",
-                "tool": "stm32flash",
-                "speed": "115200",
-                "port": "COM3"
-              },
               "build": {
+                "mcu": "cortex-m4",
                 "core": "STM32",
                 "variant": "STM32F411CEU6",
-                "mcu": "STM32F411CEU6",
                 "f_cpu": "100000000L"
+              },
+              "upload": {
+                "tool": "stm32flash",
+                "protocol": "serial",
+                "speed": "115200",
+                "port": "COM3"
               }
             }
           ]
@@ -38,7 +36,20 @@
       ],
       "tools": [
         {
-          "name": "serial",
+          "name": "arm-none-eabi-gcc",
+          "version": "9-2020-q2-update",
+          "systems": [
+            {
+              "host": "x86_64-windows",
+              "url": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/9-2020q2-update/gcc-arm-none-eabi-9-2020-q2-update-win32.exe",
+              "archiveFileName": "gcc-arm-none-eabi-10.3-2021.10-win32.exe",
+              "checksum": "SHA-256:3bebf304c59f9cc9f544ee5ed38b27df3019177b0548627c97f5f8bb02300395",
+              "size": "133952040"
+            }
+          ]
+        },
+        {
+          "name": "stm32flash",
           "version": "1.0.0",
           "systems": [
             {
