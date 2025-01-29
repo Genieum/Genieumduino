@@ -41,10 +41,10 @@
           "systems": [
             {
               "host": "x86_64-windows",
-              "url": "https://github.com/Genieum/Genieumduino/tree/main/gcc-arm-none-eabi",
+              "url": "https://github.com/Genieum/Genieumduino/raw/refs/heads/main/gcc-arm-none-eabi.tar.gz",
               "archiveFileName": "gcc-arm-none-eabi",
-              "checksum": "SHA-256: c5a225cf1498cde04bfb27e3cf71b929dfbfde40dcd1c9e21e97af9bf0b97bd9",
-              "size": "30649664"
+              "checksum": "SHA-256:2271266670689d6f62f41c5effee8f91e46d2b2658d456e47ece86d836ed6e2e",
+              "size": "21705724"
             }
           ]
         },
