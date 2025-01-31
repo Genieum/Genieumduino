@@ -38,7 +38,7 @@
         {
           "name": "arm-none-eabi-gcc",
           "version": "10.3-2021.10",
-          "path": "tools/arm-none-eabi-gcc/10.3-2021.10"
+          "path": "tools/arm-none-eabi-gcc/10.3-2021.10",
           "systems": [
             {
               "host": "x86_64-windows",
