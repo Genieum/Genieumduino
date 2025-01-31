@@ -52,6 +52,7 @@
         {
           "name": "stm32flash",
           "version": "1.0.0",
+          "path": "tools/stm32flash/1.0.0",
           "systems": [
             {
               "host": "x86_64-windows",
